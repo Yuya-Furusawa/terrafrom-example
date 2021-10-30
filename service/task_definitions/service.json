@@ -5,11 +5,11 @@
     "cpu": 333,
     "memoryReservation": 600,
     "essential": true,
-    "PortMapping": [
+    "portMappings": [
       {
         "hostPort": 0,
         "protocol": "tcp",
-        "containerPort": 8080
+        "containerPort": 3000
       }
     ],
     "logConfiguration": {
